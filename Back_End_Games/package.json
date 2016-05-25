@@ -1,0 +1,22 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "this is the backend side, what this does its save in mongoDB data like Saving games, delete, create, and update data.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Mauricio Matamoros",
+  "license": "MIT",
+  "dependencies": {
+    "boom": "^3.1.3",
+    "crypto-js": "^3.1.6",
+    "hapi": "^13.4.0",
+    "hapi-auth-cookie": "^6.0.0",
+    "inert": "^4.0.0",
+    "joi": "^8.1.0",
+    "mongoose": "^4.4.17",
+    "mongoose-unique-validator": "^1.0.2"
+  }
+}
